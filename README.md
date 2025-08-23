@@ -1,12 +1,12 @@
-# 🍎 FooDee: Your Personalized Food Recommender for Diseases
+## 🍎 FooDee: Your Personalized Food Recommender for Diseases
 
-## 📌 Overview
+### 📌 Overview
 This project started from a simple question: *“If someone has a certain disease, what foods might actually help?”*  
 Instead of just listing foods, we wanted to connect **genes, pathways, compounds, and food data** so the recommendations have some biological reasoning behind them.
 
 ---
 
-## Data Sources
+### Data Sources
 - **OMIM / Entrez Gene** – links between diseases and genes  
 - **SMPDB** – molecular pathways and the compounds involved  
 - **FooDB** – information on food constituents, amounts, and known health effects
@@ -19,7 +19,7 @@ By putting these together, we created a database that links:
 
 ---
 
-## How It Works
+### How It Works
 We used PostgreSQL and Python to build the database.  
 It supports five main queries:
 1. **Find compounds related to a disease**  
@@ -36,7 +36,7 @@ It supports five main queries:
 
 ---
 
-## Validation Example
+### Validation Example
 Case study: **Colorectal cancer (somatic)**  
 - The database highlighted two compounds: **L-Methionine** and **Phytic acid**  
 - Based on that, it suggested foods like *milk, red bell pepper, flaxseed, and carrot*  
@@ -48,7 +48,7 @@ So, the DB output was not random — it pointed us to compounds and foods that a
 
 ---
 
-## Why It Matters
+### Why It Matters
 - It connects biomedical data to something practical: food choices  
 - Helps explore how **diet, compounds, and diseases** might be linked  
 - Can be a starting point for research, education, or just curiosity about food and health  
@@ -56,7 +56,7 @@ So, the DB output was not random — it pointed us to compounds and foods that a
 
 ---
 
-## Usage Example
+### Usage Example
 | Menu | 0: Find compounds related to a disease | 1: Suggest foods for a disease |
 |------|---------------------|-----------------|
 | ![Menu](https://github.com/user-attachments/assets/b5fa8895-19c0-4587-b877-3cff65dba49b) | ![Disease → Compounds](https://github.com/user-attachments/assets/41659cd4-b9a4-46f6-8151-74afa9b736e8) | ![Disease → Foods](https://github.com/user-attachments/assets/b4e64ec5-7ef5-435c-8efe-98448909dce0) |
