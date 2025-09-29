@@ -70,4 +70,13 @@ So, the DB output was not random — it pointed us to compounds and foods that a
 |---------------|---------------------|
 | ![example1](https://github.com/user-attachments/assets/e00f35f6-e14c-4d38-8097-aaef5a40c931) | ![example2](https://github.com/user-attachments/assets/0db912a4-f833-4518-a434-1b47bcfd2093) |
 
-*팀 프로젝트 (KAIST BiS332: Bio-information Processing Course)*
+---
+
+### How to run
+```bash
+python main.py
+```
+& use the CLI Menu
+
+
+*Team Project (KAIST BiS332: Bio-information Processing Course)*
